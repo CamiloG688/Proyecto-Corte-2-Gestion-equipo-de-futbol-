@@ -19,4 +19,27 @@ public class Jugador extends Persona{
         this.salario = salario;
         this.capitan = capitan;
     }
+
+
+    public String getPosicion() {
+        return posicion;
+    }
+    public void setPosicion(String posicion) {
+        this.posicion = posicion;
+    }
+
+    public double getSalario() {
+        return salario;
+    }
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+
+    public boolean getCapitan() {
+        return capitan;
+    }
+    public void setCapitan(boolean capitan) {
+        this.capitan = capitan;
+    }
+
 }
