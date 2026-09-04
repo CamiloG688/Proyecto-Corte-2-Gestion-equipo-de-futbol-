@@ -19,4 +19,32 @@ public class DirectorTecnico extends Persona{
         this.salario = salario;
         this.tieneLicencia = tieneLicencia;
     }
+
+    public String getEspecialidad() {
+        return especialidad;
+    }
+    public void setEspecialidad(String especialidad) {
+        this.especialidad = especialidad;
+    }
+
+    public int getAñosExperiencia() {
+        return añosExperiencia;
+    }
+    public void setAñosExperiencia(int añosExperiencia) {
+        this.añosExperiencia = añosExperiencia;
+    }
+
+    public double getSalario() {
+        return salario;
+    }
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+
+    public boolean getLicencia() {
+        return tieneLicencia;
+    }
+    public void setLicencia(boolean tieneLicencia) {
+        this.tieneLicencia = tieneLicencia;
+    }
 }
