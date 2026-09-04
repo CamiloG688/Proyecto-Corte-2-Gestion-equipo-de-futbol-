@@ -3,4 +3,6 @@ public class Jugador extends Persona{
     private String posicion = "";
     private double salario = 0;
     private boolean capitan;
+
+    
 }
