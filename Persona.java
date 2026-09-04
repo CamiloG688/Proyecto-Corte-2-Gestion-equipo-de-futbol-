@@ -17,4 +17,32 @@ public class Persona{
         this.altura = altura;
         this.numeroId = documento;
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public double getAltura() {
+        return altura;
+    }
+    public void setAltura(double altura) {
+        this.altura = altura;
+    }
+
+    public long getId() {
+        return numeroId;
+    }
+    public void setId(long documento) {
+        this.numeroId = documento;
+    }
 }
