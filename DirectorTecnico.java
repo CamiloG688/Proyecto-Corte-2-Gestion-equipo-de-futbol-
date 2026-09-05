@@ -1,7 +1,7 @@
 public class DirectorTecnico extends Persona{
     private String especialidad = null;
     private int añosExperiencia = 0;
-    private boolean tieneLicencia = 0;
+    private boolean tieneLicencia = false;
     private double salario = 0;
 
     public DirectorTecnico(String nombre) {
