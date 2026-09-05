@@ -45,4 +45,10 @@ public class Persona{
     public void setId(long documento) {
         this.numeroId = documento;
     }
+
+    @Override
+    public String toString() {
+    return "Persona [nombre=" + nombre + ", edad=" + edad
+            + ", altura=" + altura + ", documento=" + numeroId + "]";
+    }
 }

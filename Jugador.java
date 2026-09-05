@@ -42,4 +42,12 @@ public class Jugador extends Persona{
         this.capitan = capitan;
     }
 
+    @Override
+    public String toString() {
+    return "Jugador [nombre=" + getNombre() + ", edad=" + getEdad()
+            + ", altura=" + getAltura() + ", documento=" + getId()
+            + ", numeroCamiseta=" + numeroCamisa + ", posicion=" + posicion
+            + ", salario=" + salario + ", capitan=" + capitan + "]";
+}
+
 }

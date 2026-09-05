@@ -47,4 +47,13 @@ public class DirectorTecnico extends Persona{
     public void setLicencia(boolean tieneLicencia) {
         this.tieneLicencia = tieneLicencia;
     }
+
+    @Override
+    public String toString() {
+    return "DirectorTecnico [nombre=" + getNombre() + ", edad=" + getEdad()
+            + ", altura=" + getAltura() + ", documento=" + getId()
+            + ", especialidad=" + especialidad + ", anosExperiencia=" + añosExperiencia
+            + ", salario=" + salario + ", tieneLicencia=" + tieneLicencia + "]";
+}
+
 }

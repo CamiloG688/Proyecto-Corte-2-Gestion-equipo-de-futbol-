@@ -47,4 +47,12 @@ public class Arbitro extends Persona{
     public void setDisponible(boolean disponible) {
         this.disponible = disponible;
     }
+
+    @Override
+    public String toString() {
+        return "Arbitro [nombre=" + getNombre() + ", edad=" + getEdad()
+                + ", altura=" + getAltura() + ", documento=" + getId()
+                + ", categoria=" + categoria + ", partidosDirigidos=" + partidosDirigidos
+                + ", calificacion=" + calificacion + ", disponible=" + disponible + "]";
+    }
 }
